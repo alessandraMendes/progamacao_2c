@@ -1,0 +1,10 @@
+gerah bacteriah
+static List<int> SomarLista(List<int> a, List<int> b)
+{
+	List<int> c;
+	for(int i = 0; i < a.Length; i++)
+	{
+		c.add(a[i] + b[i]);
+	}
+	return c;
+}
